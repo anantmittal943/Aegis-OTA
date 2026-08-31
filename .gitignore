@@ -1,0 +1,82 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Go build artifacts
+/bin/
+/build/
+/dist/
+/out/
+coverage.out
+*.test
+
+# Generated binaries and archives
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.img
+*.iso
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.xz
+
+# Device / image output
+images/
+artifacts/
+releases/
+firmware/
+
+# Secrets and signing material
+*.pem
+*.key
+*.crt
+*.csr
+*.sig
+*.pub
+.env
+.env.*
+secrets/
+keys/
+
+# Logs and temp files
+*.log
+logs/
+/tmp/
+*.tmp
+
+# Build directories from tooling
+cache/
+obj/
+cmake-build-debug/
+cmake-build-release/
+
+# Yocto / embedded build outputs
+*.rootfs
+*.manifest
+*.wic
+*.wic.gz
+*.bmap
+
+# Local data
+data/
+local/
+
+# Node / web tooling (if used in tooling later)
+node_modules/
+npm-debug.log*
+
+# Python (for tooling or scripts)
+__pycache__/
+*.py[cod]
+
+# JetBrains / VSCode workspace metadata
+*.code-workspace
